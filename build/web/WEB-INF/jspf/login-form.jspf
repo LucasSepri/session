@@ -1,0 +1,26 @@
+<%-- any content can be specified here e.g.: --%>
+
+
+
+<%@ page pageEncoding="UTF-8" %>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content rounded-4 shadow">
+      <div class="modal-header p-5 pb-4 border-bottom-0">
+        <h1 class="fw-bold mb-0 fs-2">Formulario de Identificação</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+
+      <div class="modal-body p-5 pt-0">
+        <form>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control rounded-3" placeholder="Seu nome" id="formName" name="session-name">
+            <label for="floatingInput">Nome</label>
+          </div>
+          <input class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit" name="session-login">
+          <small class="text-body-secondary">Use este formulário para identificar-se no sistema</small>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
